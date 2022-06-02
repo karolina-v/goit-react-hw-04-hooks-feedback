@@ -1,0 +1,28 @@
+.feedback__block {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+button {
+  height: auto;
+  width: 70px;
+  font-size: 15px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+button:first-child {
+  background-color: green;
+}
+
+button:nth-child(2) {
+  background-color: navajowhite;
+}
+
+button:last-child {
+  background-color: red;
+}
