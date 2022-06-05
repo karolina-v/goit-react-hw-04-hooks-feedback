@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import Notification from '../Notification';
 import s from './Statistics.module.css';
 
+
 const Statistics = ({ good, neutral, bad, total, positivePercentage }) => (
     <div className={s.statistics__block}>
         
